@@ -31,11 +31,11 @@ function update() {
     // console.log(trav);  
     trav.map(function(tr){
         return '<li>'+
-                '<strong>Title: </strong>' + tr.name + '<br/>' +
-                '<strong>Subtitle: </strong>' + tr.id + '<br/>' +
-                '<strong>Author: </strong>' + tr.category_level1 + '<br/>' +
-                '<strong>Category: </strong>' + tr.category_level2 + '<br/>' +
-                '<strong>Publisher: </strong>' + tr.category_level3 + '<br/>' +
+                '<strong>Name: </strong>' + tr.name + '<br/>' +
+                '<strong>ID: </strong>' + tr.id + '<br/>' +
+                '<strong>Category: </strong>' + tr.category_level1 + '<br/>' +
+                '<strong>Category_level2: </strong>' + tr.category_level2 + '<br/>' +
+                '<strong>Category_level3: </strong>' + tr.category_level3 + '<br/>' +
               '</li>';
       }).join('');
       + '</ul>';
