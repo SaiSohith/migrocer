@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Migrocer</title>
+</head>
+<body>
+    <div>
+    <label for="cat">Choose Category</label>
+    <select id="category">
+      <option value="default">select</option>
+      <option value="Grocery & Staples" oncl>Grocery and Staples</option>
+    </select>
+    <select id="category_2">
+        <option value="default_1">select</option>
+        <option value="Rice" oncl>Rice and Rice Products</option>
+        <option value="masala" oncl>masala and spices Products</option>
+        <option value="dals" oncl>dals and pulses Products</option>
+      </select>
+      <select id="category_3">
+        <option value="default_2">select</option>
+        <option value="Rice" oncl>Rice and Rice Products</option>
+        <option value="Spices" oncl>masala and spices Products</option>
+        <option value="Cereals and Meals" oncl>dals and pulses Products</option>
+      </select>
+      <button onclick="update()">Submit</button>
+      <div id="render"></div>
+    </div>
+
+    <script type="text/javascript" src="./script.js"></script>
+    <script type="text/javascript" src="./products.json"></script>
+
+
+</body>
+</html>
